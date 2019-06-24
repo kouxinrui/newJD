@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+}
+li{
+	list-style-type: none;
+}
+a,a:visited{
+	color: #5a5a5a;
+	text-decoration:none;
+}
+a,a:hover{
+	color: #cc0D24;
+	text-decoration:none;
+}
+.width190{
+	width: 190px;
+}
+.beijing{
+	background-color: #ffffff;
+}
+.container{
+	width: 1193px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+input,button{
+	outline: none;
+}
+i{
+    font-style: normal;
+	/*background-image: url(../images/iconlist_2.png);*/
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+b{
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+.clearfloat:after{
+	content: '';
+	display: block;
+	clear:both;
+}
